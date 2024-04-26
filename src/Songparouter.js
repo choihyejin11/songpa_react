@@ -9,18 +9,19 @@ import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 import App from "./App";
 import Ex1 from "./Ex1";
 import Ex2 from "./Ex2";
-import Ex3 from "./Ex3";
+// import Ex3 from "./Ex3";
 
 const routeComponents = [
 
   { path: "/App", component: App },
   { path: "/Ex1", component: Ex1 },
   { path: "/Ex2", component: Ex2 },
-  { path: "/Ex3", component: Ex3 },
+  // { path: "/Ex3", component: Ex3 },
 
 ];
 
 function Appstart() {
+  
 
   return (
 
@@ -61,4 +62,4 @@ function Appstart() {
 }
 
 
-export default Ex3(); 
+export default Appstart; 
